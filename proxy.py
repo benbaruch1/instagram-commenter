@@ -3,10 +3,10 @@ import zipfile
 import settings
 from selenium import webdriver
 
-PROXY_HOST = '69.134.136.199'  # rotating proxy or host
-PROXY_PORT = 26345  # port
-PROXY_USER = '6FzPqf'  # username
-PROXY_PASS = 'f3fJV0g'  # password
+PROXY_HOST = settings.proxy_hostname
+PROXY_PORT = settings.proxy_port
+PROXY_USER = settings.proxy_username
+PROXY_PASS = settings.proxy_password
 
 
 manifest_json = """
