@@ -1,4 +1,5 @@
 # instagram-commenter
+> An Instagram commenter developed in Python with Selenium.
 
 Instagram commenter bot. The bot gets accounts and comments from text files. Then, it connects each account and post a comment from the text file(by order). It has option of using proxy if needed.
 
@@ -8,6 +9,14 @@ Explanation in a few steps:
 3. Logout
 4. Delay for 30 secs to 2 mins.
 5. Next account until done.
+
+#### Prerequisites
+
+- [Python](https://www.python.org/downloads/ "Python")
+- [Selenium](https://selenium-python.readthedocs.io/installation.html "Selenium")
+- [Chromedriver](http://chromedriver.chromium.org/ "Chromedriver")
+- Google Chrome
+
 
 ## Settings
 
