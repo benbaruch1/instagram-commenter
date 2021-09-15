@@ -9,8 +9,8 @@ import proxy
 import settings
 
 #  Target Details
-photo_URL = "https://www.instagram.com/p/CTlLfpNHbEC/"
-amount_of_comments = 1
+photo_URL = "https://www.instagram.com/p/CKjhSKzJRWd/"
+amount_of_comments = 3
 print("Comments Requested: %d" % amount_of_comments)
 
 if len(settings.accounts_list) < amount_of_comments and len(settings.accounts_list) != amount_of_comments:
@@ -30,7 +30,8 @@ while comments_done < amount_of_comments:
     comment = settings.comments_list[comments_done]
 
     driver.get("https://instagram.com")
-    time.sleep(10)
+    driver.maximize_window()
+    time.sleep(7)
 
     username_input_form = driver.find_element_by_name("username")
     password_input_form = driver.find_element_by_name("password")
@@ -52,6 +53,7 @@ while comments_done < amount_of_comments:
     # Connection completed. Go to URL and comment.
 
     driver.get(photo_URL)
+    time.sleep(3)
     comment_box = driver.find_element_by_class_name("Ypffh")
     comment_box.click()
     comment_box = driver.find_element_by_class_name("Ypffh")  # Need to click twice because IG algo

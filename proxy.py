@@ -80,7 +80,9 @@ def get_chromedriver(use_proxy=False, user_agent=None):
     return driver
 
 
-#  driver = get_chromedriver(use_proxy=False)
-#  driver.get('https://ipchicken.com')
+
+driver = get_chromedriver(use_proxy=True)
+driver.get('https://ipchicken.com')
+
 
 
