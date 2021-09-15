@@ -37,7 +37,7 @@ Make sure you write each comment in a new line. # Do not include Emojis!
 
 If you want to use proxy, change in line 9 to True. If not, change it to False.
 
-In addition, in proxy.py file you need to insert your proxy hostname, port and authentication.
+In addition, you need to insert your proxy hostname, port and authentication.
 
 
 ## Run
