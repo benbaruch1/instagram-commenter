@@ -76,7 +76,7 @@ def get_chromedriver(use_proxy=False, user_agent=None):
         chrome_options.add_argument('--user-agent=%s' % user_agent)
     driver = webdriver.Chrome(
         os.path.join(path, settings.path_of_driver),
-        chrome_options=chrome_options)
+        options=chrome_options)
     return driver
 
 
