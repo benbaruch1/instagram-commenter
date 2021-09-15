@@ -7,7 +7,7 @@ comments_file = r"C:\python\instagram-commenter\comments.txt"
 
 #  Proxy
 proxy = True  # Set True or False.
-proxy_hostname = '195.85.194.68'  # rotating proxy or host
+proxy_hostname = '95.85.194.68'  # rotating proxy or host
 proxy_port = 8000  # port
 proxy_username = '97sC3z'  # username
 proxy_password = 'yqodXU'  # password
