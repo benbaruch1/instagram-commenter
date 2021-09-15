@@ -52,3 +52,7 @@ In the next line(line 13), you choose how many comments to post.
 Instagram can limit your accounts. Use it wisely!
 
 I recommend to use mobile proxies for 3-5 accounts then change IP. If possible, one ip per account.
+
+## To Do
+- [ ] headless mode.
+- [ ] Log to file.
