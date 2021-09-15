@@ -7,6 +7,10 @@ comments_file = r"C:\python\instagram-commenter\comments.txt"
 
 #  Proxy
 proxy = True  # Set True or False.
+proxy_hostname = '79.134.136.199'  # rotating proxy or host
+proxy_port = 36345  # port
+proxy_username = '7FzPqf'  # username
+proxy_password = 'f3fJV0g'  # password
 
 #  Load comments to list
 with open(comments_file, "r", encoding='utf-8') as fptr:
